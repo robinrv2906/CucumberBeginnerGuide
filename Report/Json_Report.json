@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Google search scenario",
+        "description": "",
+        "id": "this-is-to-test-google-search;google-search-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17688637800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is entering google.co.in",
+            "match": {
+              "location": "OpenGoogleDef.user_is_entering_google_co_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 907836300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is typing the search term \"Agniprasath\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agniprasath",
+                  "offset": 32
+                }
+              ],
+              "location": "OpenGoogleDef.user_is_typing_the_search_term(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5276721800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enters the return key",
+            "match": {
+              "location": "OpenGoogleDef.enters_the_return_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1464779100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see the search result",
+            "match": {
+              "location": "OpenGoogleDef.user_should_see_the_search_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is to test Google Search",
+    "description": "",
+    "id": "this-is-to-test-google-search",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/feature/OpenGoogle.feature"
+  }
+]
